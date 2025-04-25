@@ -105,5 +105,38 @@ button {
 button:hover {
   background: #005fa3;
 }
+@media (max-width: 768px) {
+  #order-form {
+    flex-direction: column;
+  }
+
+  .section {
+    width: 100%;
+  }
+
+  #order-table {
+    font-size: 14px;
+  }
+
+  #buy-now, #add-fav, #apply-fav {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  #order-table th, #order-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  #grand-total {
+    font-size: 16px;
+  }
+
+  h2, h3 {
+    font-size: 18px;
+  }
+}
 
 
